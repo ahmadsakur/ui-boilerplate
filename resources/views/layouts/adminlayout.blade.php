@@ -25,7 +25,7 @@
         <div class="scrollbar-inner">
             <!-- Brand -->
             <div class="sidenav-header d-flex align-items-center">
-                <a class="navbar-brand" href="/adminpanel">
+                <a class="navbar-brand" href="{{ route('admindashboard') }}">
                     <img src="argon/img/brand/blue.png" class="navbar-brand-img" alt="...">
                 </a>
                 <div class="ml-auto">
@@ -46,45 +46,22 @@
                     <!-- Nav items -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" href="{{ route('admindashboard') }}">
                                 <i class="fa fa-home text-info" aria-hidden="true"></i>
                                 <span class="nav-link-text">Dashboard</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/guru">
+                            <a class="nav-link" href="/events">
                                 <i class="ni ni-badge text-red"></i>
-                                <span class="nav-link-text">Data Guru</span>
+                                <span class="nav-link-text">Data Event</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/siswa">
+                            <a class="nav-link" href="/applicants">
                                 <i class="ni ni-hat-3 text-info"></i>
-                                <span class="nav-link-text">Data Siswa</span>
+                                <span class="nav-link-text">Data Pendaftar</span>
                             </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#navbar-dashboards" data-toggle="collapse" role="button"
-                                aria-expanded="false" aria-controls="navbar-dashboards">
-                                <i class="fas fa-chart-bar text-danger" aria-hidden="true"></i>
-                                <span class="nav-link-text">Kelola Nilai</span>
-                            </a>
-                            <div class="collapse" id="navbar-dashboards">
-                                <ul class="nav nav-sm flex-column">
-                                    <li class="nav-item">
-                                        <a href="/raport" class="nav-link">Raport</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="/ujiansekolah" class="nav-link">Ujian Sekolah</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="/ujianpraktek" class="nav-link">Ujian Praktek</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="/nilaiakhir" class="nav-link">Nilai Akhir</a>
-                                    </li>
-                                </ul>
-                            </div>
                         </li>
                     </ul>
                 </div>

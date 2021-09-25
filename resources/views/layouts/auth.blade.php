@@ -59,15 +59,15 @@
          </div>
          <ul class="navbar-nav ml-auto">
            <li class="nav-item">
-             <a href="/login" class="nav-link">
+             <a href="/login" class="nav-link btn btn-success">
                <span class="nav-link-inner--text">Login</span>
              </a>
            </li>
-           <li class="nav-item">
+           {{-- <li class="nav-item">
              <a href="/register" class="nav-link btn btn-success">
                <span class="nav-link-inner--text">Register</span>
              </a>
-           </li>
+           </li> --}}
          </ul>
          <hr class="d-lg-none" />
        </div>

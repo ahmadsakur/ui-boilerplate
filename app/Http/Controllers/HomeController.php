@@ -23,6 +23,11 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return redirect()->route('welcome');
+        // return view('welcome');
+        // return redirect()->route('welcome');
     }
+
+    // public function welcome(){
+    //     return view('event');
+    // }
 }

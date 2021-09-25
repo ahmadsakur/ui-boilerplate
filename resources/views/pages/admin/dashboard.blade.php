@@ -16,11 +16,6 @@
                         </nav>
                     </div>
                     <div class="col-lg-6 col-5 text-right">
-                        {{-- <button type="button" data-id="{{Auth::user()->id}}" data-name="{{Auth::user()->name}}"
-                data-email="{{Auth::user()->email}}" data-toggle="modal" data-target="#accountModal"
-                class="btn btn-sm btn-neutral" id="editAdminButton">Account</button>
-                <button type="button" id="editSettingsButton" data-toggle="modal" data-target="#settingsModal"
-                   data-id="{{$settings->id}}" class="btn btn-sm btn-neutral">Settings</button> --}}
                     </div>
                 </div>
             </div>
@@ -34,15 +29,13 @@
                     <div class="card-header bg-transparent">
                         <div class="row align-items-center">
                             <div class="col">
-                                <h6 class="text-uppercase text-muted ls-1 mb-1">Data Siswa</h6>
-                                <h5 class="h3 mb-0">Jumlah Siswa</h5>
+                                <h6 class="text-uppercase text-muted ls-1 mb-1">Dashboard Admin</h6>
+                                <h5 class="h3 mb-0">Admin Panel</h5>
                             </div>
                         </div>
                     </div>
                     <div class="card-body">
-                        <h1 class="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur
-                            inventore, sequi unde sit et veritatis iste dolore est neque labore magnam nostrum corporis
-                            eveniet facilis quam. Ab ad laudantium aliquam.</h1>
+                        <h1 class="text-center">Selamat Datang di Dashboard Admin</h1>
                     </div>
                 </div>
             </div>
